@@ -1,0 +1,13 @@
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+  <div>
+    <input type="checkbox" id="title" name="title"
+    <label for="title"></label>
+    </div>
+
+  <%= f.submit %>
+<% end %>
